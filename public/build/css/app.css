@@ -1,0 +1,57 @@
+.validateForm{
+    width: fit-content;
+    padding: 20px 40px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: rgb(247, 247, 247);
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.validateForm h2{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.validateForm input{
+    margin: 15px 0 5px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.validateForm button{
+    background-color: rgb(72, 148, 62);
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.127);
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.error {
+    background-color: rgba(240, 159, 159, 0.493);
+    color: rgb(26, 23, 23);
+    width: auto;
+    max-width: 290px;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto 5px;
+    border-left: 9px solid rgb(112, 9, 9);
+}
+
+.success{
+    background-color: rgba(162, 240, 159, 0.493);
+    color: rgb(23, 26, 23);
+    width: auto;
+    max-width: 290px;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto 5px;
+    border-left: 9px solid rgb(9, 112, 18);
+}

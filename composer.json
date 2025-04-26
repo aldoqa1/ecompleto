@@ -1,0 +1,19 @@
+{
+    "name": "aldoq/test",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Model\\": "./models",
+            "Controller\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "aldoqa1",
+            "email": "aldoquevedocontacto@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
